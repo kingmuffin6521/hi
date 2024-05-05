@@ -1,0 +1,60 @@
+.name_of_emotions{
+    animation-name: emotionlist;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes emotionlist{
+0%    {background-color: red; left: 0px;}
+5%    {background-color: orangered; left: 10px;}
+10%   {background-color: orange; left: 20px;}
+15%   {background-color: yellow; left: 30px;}
+20%   {background-color: yellowgreen; left: 40px;}
+25%   {background-color: green; left: 50px;}
+30%   {background-color: darkgreen; left: 40px;}
+35%   {background-color: darkcyan;left: 30px;}
+40%   {background-color: cyan; left: 20px;}
+45%   {background-color: lightblue; left: 10px;}
+50%   {background-color: blue; left: 0px;}
+55%   {background-color: darkblue; left: -10px;}
+60%   {background-color: darkmagenta; left: -20px;}
+65%   {background-color: darkviolet;left: -30px;}
+70%   {background-color: purple; left: -30px;}
+75%   {background-color: darkorchid; left: -40px;}
+80%   {background-color: deeppink; left: -50px;}
+85%   {background-color: palevioletred;left: -40px;}
+90%   {background-color: salmon; left: -30px;}
+95%   {background-color: pink; left: -20px;}
+100%  {background-color: red; left: -10px;}
+
+}
+
+body{
+    animation-name: movingtext;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes movingtext{
+0%    {background-color: red; }
+5%    {background-color: orangered; }
+10%   {background-color: orange; }
+15%   {background-color: yellow; }
+20%   {background-color: yellowgreen; }
+25%   {background-color: green; }
+30%   {background-color: darkgreen; }
+35%   {background-color: darkcyan;}
+40%   {background-color: cyan; }
+45%   {background-color: lightblue; }
+50%   {background-color: blue;}
+55%   {background-color: darkblue; }
+60%   {background-color: darkmagenta; }
+65%   {background-color: darkviolet;}
+70%   {background-color: purple; }
+75%   {background-color: darkorchid; }
+80%   {background-color: deeppink; }
+85%   {background-color: palevioletred;}
+90%   {background-color: salmon; }
+95%   {background-color: pink; }
+100%  {background-color: red; }
+}

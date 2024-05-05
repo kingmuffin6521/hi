@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Detect 😄</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <center>
+        <br><br>
+    <h1 ><marquee style="width: 200px;">Detect 😄</marquee></h1> <br><br>
+    <p style="font-size: 22px;">Model is trained to identify the following emotions: </p>
+<br><br>
+<div class="name_of_emotions">
+    <br>
+<b >
+ Happy
+ <hr>
+ Sad
+ <hr>
+ Angry
+ <hr>
+Wonder
+<hr>
+
+</b>
+</div>
+
+      <label>Webcam View - </label>
+      <div id="camera"></div>
+      <br><br>
+      <label>Result - </label>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <!--Add  onclick="take_snapshot();"  -->
+      <button  class="btn btn-info" type="onClick" onclick="take_snapshot();">Capture Image</button>
+      <br><br>
+
+      <!--Add    onclick="check();"  -->
+      <button  class="btn btn-success" type="onClick" onclick="check();">Identify Image</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Object : <span id="result_object_name"></span></p>
+      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span></p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+    </center>
+</body>
+</html>
